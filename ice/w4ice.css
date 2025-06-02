@@ -1,0 +1,19 @@
+.full-width-image {
+  display: block;       /* removes inline gap */
+  width: 100vw;         /* full viewport width */
+  height: auto;         /* maintain aspect ratio */
+  position: fixed;      /* stays at top even on scroll */
+  top: 0;               /* position at top */
+  left: 0;              /* align left edge */
+  z-index: 9999;        /* make sure it’s on top of other elements */
+  object-fit: cover;    /* optional: covers area if you want cropping */
+}
+
+
+
+body {
+  width: 45vw;            /* 45% of the viewport width */
+  margin: 0 auto;         /* centers the body horizontally */
+  background-color: grey; /* optional background */
+  min-height: 100vh;      /* makes body at least full viewport height */
+}
